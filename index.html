@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        .ol-geocoder.gcd-gl-container {
+            top: 65px!important;
+            left: .5em!important;
+            width: 2.1em!important;
+            height: 2.1em!important;
+        }
+        .ol-geocoder .gcd-gl-container{
+            width: 2.1em!important;
+            height: 2.1em!important;
+        }
+        .ol-geocoder .gcd-gl-control{
+            width: 2.1em!important;
+        }
+        .ol-geocoder .gcd-gl-expanded {
+            width: 15.625em!important;
+            height: 2.1875em;
+        }
+        .ol-touch .ol-geocoder.gcd-gl-container{
+            top: 80px!important;
+        }
+        .ol-geocoder .gcd-gl-btn {
+            width: 1.375em!important;
+            height: 1.375em!important;
+            top: .225em!important;
+            background-image: none!important;
+        }
+        </style>
+<style>
+.search-layer {
+  top: 100px;
+  left: .5em;
+}
+.ol-touch .search-layer {
+  top: 130px;
+}
+</style>
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control button {
+            background-color: #f8f8f8 !important;
+            color: #000000 !important;
+            border-radius: 0px !important;
+        }
+        .ol-zoom, .geolocate, .gcd-gl-control .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 3px !important;
+        }
+        .ol-scale-line {
+            background: none !important;
+        }
+        .ol-scale-line-inner {
+            border: 2px solid #f8f8f8 !important;
+            border-top: none !important;
+            background: rgba(255, 255, 255, 0.5) !important;
+            color: black !important;
+        }
+        </style>
+        <link href="resources/ol-geocoder.min.css" rel="stylesheet">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/ol-geocoder.js"></script>
+        <script src="layers/DEPARTAMENTOS_1.js"></script><script src="layers/CULTURACARAL_2.js"></script><script src="layers/MARCADORCARAL_3.js"></script><script src="layers/CHAVIN_4.js"></script><script src="layers/CENTROCHAVINDEHUANTAR_5.js"></script><script src="layers/CENTROSCEREMONIALES_6.js"></script><script src="layers/MARCADORCHAVIN_7.js"></script><script src="layers/PARACAS_8.js"></script><script src="layers/CENTROSCEREMONIALES_9.js"></script><script src="layers/CULTURAPARACAS_10.js"></script><script src="layers/VICUS_11.js"></script><script src="layers/CENTROSCEREMONIALES_12.js"></script><script src="layers/MARCADOR__VICUS_13.js"></script><script src="layers/LIMA_14.js"></script><script src="layers/CENTROSCEREMONIALES_15.js"></script><script src="layers/MARCADORLIMA_16.js"></script><script src="layers/CAJAMARCA_17.js"></script><script src="layers/MARCADORCAJAMARCA_18.js"></script><script src="layers/NAZCA_19.js"></script><script src="layers/CENTROSCEREMONIALES_20.js"></script><script src="layers/AREADELASLINEASDENAZCA_21.js"></script><script src="layers/MARCADORLINEASDENAZCA_22.js"></script><script src="layers/MARCADORNAZCA_23.js"></script><script src="layers/MOCHICA_24.js"></script><script src="layers/CENTROSCEREMONIALES_25.js"></script><script src="layers/MARCADORMOCHICA_26.js"></script><script src="layers/HAURI_27.js"></script><script src="layers/CENTROSCEREMONIALES_28.js"></script><script src="layers/MARCADORHUARI_29.js"></script><script src="layers/CHACHAPOYAS_30.js"></script><script src="layers/CENTROSCEREMONIALES_31.js"></script><script src="layers/MARCADORCHACHAPOYAS_32.js"></script><script src="layers/TIAHUANACO_33.js"></script><script src="layers/MARCADORTIAHUANACO_34.js"></script><script src="layers/CENTROSCEREMONIALES_35.js"></script><script src="layers/CHIMU_36.js"></script><script src="layers/CENTROSCEREMONIALES_37.js"></script><script src="layers/MARCADORCHIMU_38.js"></script><script src="layers/LAMBAYEQUE_39.js"></script><script src="layers/MARCADORLAMBAYEQUE_40.js"></script><script src="layers/CENTROSCEREMONIALES_41.js"></script>
+        <script src="styles/DEPARTAMENTOS_1_style.js"></script><script src="styles/CULTURACARAL_2_style.js"></script><script src="styles/MARCADORCARAL_3_style.js"></script><script src="styles/CHAVIN_4_style.js"></script><script src="styles/CENTROCHAVINDEHUANTAR_5_style.js"></script><script src="styles/CENTROSCEREMONIALES_6_style.js"></script><script src="styles/MARCADORCHAVIN_7_style.js"></script><script src="styles/PARACAS_8_style.js"></script><script src="styles/CENTROSCEREMONIALES_9_style.js"></script><script src="styles/CULTURAPARACAS_10_style.js"></script><script src="styles/VICUS_11_style.js"></script><script src="styles/CENTROSCEREMONIALES_12_style.js"></script><script src="styles/MARCADOR__VICUS_13_style.js"></script><script src="styles/LIMA_14_style.js"></script><script src="styles/CENTROSCEREMONIALES_15_style.js"></script><script src="styles/MARCADORLIMA_16_style.js"></script><script src="styles/CAJAMARCA_17_style.js"></script><script src="styles/MARCADORCAJAMARCA_18_style.js"></script><script src="styles/NAZCA_19_style.js"></script><script src="styles/CENTROSCEREMONIALES_20_style.js"></script><script src="styles/AREADELASLINEASDENAZCA_21_style.js"></script><script src="styles/MARCADORLINEASDENAZCA_22_style.js"></script><script src="styles/MARCADORNAZCA_23_style.js"></script><script src="styles/MOCHICA_24_style.js"></script><script src="styles/CENTROSCEREMONIALES_25_style.js"></script><script src="styles/MARCADORMOCHICA_26_style.js"></script><script src="styles/HAURI_27_style.js"></script><script src="styles/CENTROSCEREMONIALES_28_style.js"></script><script src="styles/MARCADORHUARI_29_style.js"></script><script src="styles/CHACHAPOYAS_30_style.js"></script><script src="styles/CENTROSCEREMONIALES_31_style.js"></script><script src="styles/MARCADORCHACHAPOYAS_32_style.js"></script><script src="styles/TIAHUANACO_33_style.js"></script><script src="styles/MARCADORTIAHUANACO_34_style.js"></script><script src="styles/CENTROSCEREMONIALES_35_style.js"></script><script src="styles/CHIMU_36_style.js"></script><script src="styles/CENTROSCEREMONIALES_37_style.js"></script><script src="styles/MARCADORCHIMU_38_style.js"></script><script src="styles/LAMBAYEQUE_39_style.js"></script><script src="styles/MARCADORLAMBAYEQUE_40_style.js"></script><script src="styles/CENTROSCEREMONIALES_41_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>

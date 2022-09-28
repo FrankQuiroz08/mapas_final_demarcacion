@@ -1,0 +1,1 @@
+var json_CULTURAPARACAS_10 = {"type":"FeatureCollection","name":"CULTURAPARACAS_10","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"cul_par":"CULTURA PARACAS"},"geometry":{"type":"Point","coordinates":[-75.523764014772084,-14.67842048013542]}}]}

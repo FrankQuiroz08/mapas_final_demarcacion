@@ -1,0 +1,1 @@
+var json_MARCADORCHIMU_38 = {"type":"FeatureCollection","name":"MARCADORCHIMU_38","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"nombre4":"CULTURA CHIMU"},"geometry":{"type":"Point","coordinates":[-80.639135465966689,-5.266382208886032]}}]}

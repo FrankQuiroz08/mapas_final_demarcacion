@@ -1,0 +1,1 @@
+var json_MARCADORHUARI_29 = {"type":"FeatureCollection","name":"MARCADORHUARI_29","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"nombre2":"CULTURA HUARI"},"geometry":{"type":"Point","coordinates":[-77.826607854393231,-9.599030710884644]}}]}

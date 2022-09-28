@@ -1,0 +1,1 @@
+var json_MARCADORCHACHAPOYAS_32 = {"type":"FeatureCollection","name":"MARCADORCHACHAPOYAS_32","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"chacha2":"CULTURA CHACHAPOYAS"},"geometry":{"type":"Point","coordinates":[-77.021849265753417,-6.897075276729034]}}]}

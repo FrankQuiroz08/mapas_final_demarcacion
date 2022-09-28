@@ -1,0 +1,1 @@
+var json_MARCADORNAZCA_23 = {"type":"FeatureCollection","name":"MARCADORNAZCA_23","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"nazca":"CULTURA NAZCA"},"geometry":{"type":"Point","coordinates":[-75.816118499418536,-14.299210958767768]}}]}

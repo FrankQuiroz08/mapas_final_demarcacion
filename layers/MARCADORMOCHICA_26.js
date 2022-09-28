@@ -1,0 +1,1 @@
+var json_MARCADORMOCHICA_26 = {"type":"FeatureCollection","name":"MARCADORMOCHICA_26","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"moc":"CULTURA MOCHICA"},"geometry":{"type":"Point","coordinates":[-79.856601876423696,-6.60499696752774]}}]}

@@ -1,0 +1,1 @@
+var json_MARCADORCHAVIN_7 = {"type":"FeatureCollection","name":"MARCADORCHAVIN_7","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"CHAV":"CULTURA CHAVIN"},"geometry":{"type":"Point","coordinates":[-77.013446431193472,-10.550758784634553]}}]}

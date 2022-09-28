@@ -1,0 +1,1 @@
+var json_MARCADORLINEASDENAZCA_22 = {"type":"FeatureCollection","name":"MARCADORLINEASDENAZCA_22","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"nazca":"Lineas de Nazca"},"geometry":{"type":"Point","coordinates":[-75.355765252677287,-14.36128105945197]}}]}

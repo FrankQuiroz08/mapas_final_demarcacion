@@ -1,0 +1,1 @@
+var json_MARCADORTIAHUANACO_34 = {"type":"FeatureCollection","name":"MARCADORTIAHUANACO_34","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"tiahu":"CULTURA TIAHUANACO"},"geometry":{"type":"Point","coordinates":[-70.22124247081797,-16.033873609812062]}}]}

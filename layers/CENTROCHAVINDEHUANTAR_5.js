@@ -1,0 +1,1 @@
+var json_CENTROCHAVINDEHUANTAR_5 = {"type":"FeatureCollection","name":"CENTROCHAVINDEHUANTAR_5","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"CHAV_HUANT":"CHAVIN DE HUANTAR"},"geometry":{"type":"Point","coordinates":[-77.103534285658725,-9.542981733247633]}}]}

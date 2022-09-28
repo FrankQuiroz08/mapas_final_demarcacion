@@ -1,0 +1,1 @@
+var json_MARCADOR__VICUS_13 = {"type":"FeatureCollection","name":"MARCADOR__VICUS_13","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"MAR_VIC":"CULTURA VICUS"},"geometry":{"type":"Point","coordinates":[-80.446535997658785,-5.053500585327789]}}]}

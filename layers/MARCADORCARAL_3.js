@@ -1,0 +1,1 @@
+var json_MARCADORCARAL_3 = {"type":"FeatureCollection","name":"MARCADORCARAL_3","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"MARCADOR":"CULTURA CARAL"},"geometry":{"type":"Point","coordinates":[-77.302118561394451,-11.190223400104058]}}]}
